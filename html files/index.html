@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css file/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Using Css Grid</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="left"><a href="#">Home</a></li>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Data</a></li>
+            <li><a href="#hamburger">Buy</a></li>
+            <li><img src="/images/moon.png" id="icon"></li>
+        </ul>
+    </div>
+    <header class="header-section">
+        <h1>Lorem Too Metut</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, laudantium?</p>
+    </header>
+    
+    <div class="container">
+        <div class="divider">
+            <h2>Intro</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, aliquam! Temporibus, magnam necessitatibus qui ut explicabo debitis, quis obcaecati porro nihil id aperiam velit at natus perferendis quo a! Doloribus.</p>
+            <div class="link">
+                <a href="#">See more...</a>
+            </div>
+        </div>
+        <div class="divider">
+            <h2>Hamburger</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto culpa ducimus veniam, dolorem pariatur nostrum blanditiis rerum ipsum, fugit ea sit totam consequuntur dolor deleniti eos, voluptatem natus. Assumenda, asperiores!</p>
+            <div class="link">
+                <a href="#hamburger">See more...</a>
+            </div>
+        </div>
+        <div class="divider">
+            <h2>Data</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam harum neque earum incidunt similique aliquid nobis quas excepturi, dignissimos commodi repellat laborum quod amet nihil nam non corporis ducimus nesciunt.</p>
+            <div class="link">
+                <a href="#">See more...</a>
+            </div>
+        </div>
+    </div>
+    <!-- main-containers  -->
+    <div class="main-section">
+        <div class="second-heading">
+            <h2 id="intro">Weighing Bugs</h2>
+        </div>
+        <div class="container-2">
+            <div class="img-box divider-2">
+                <img src="/images/StockCake-Hand touches leaf_1727206382.jpg" alt="">
+            </div>
+            <div class="divider">
+                <h2>Data</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam harum neque earum incidunt similique aliquid nobis quas excepturi, dignissimos commodi repellat laborum quod amet nihil nam non corporis ducimus nesciunt.</p>
+                <div class="link">
+                    <a href="#">See more...</a>
+                </div>
+        </div>
+    </div>
+
+
+    <!-- column despa container -->
+
+    <div class="container">
+        <div class="divider">
+            <h2>Help</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, aliquam! Temporibus, magnam necessitatibus qui ut explicabo debitis, quis obcaecati porro nihil id aperiam velit at natus perferendis quo a! Doloribus.</p>
+            <div class="link">
+                <a href="#">See more...</a>
+            </div>
+        </div>
+        <div class="divider">
+            <h2>Meanings</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto culpa ducimus veniam, dolorem pariatur nostrum blanditiis rerum ipsum, fugit ea sit totam consequuntur dolor deleniti eos, voluptatem natus. Assumenda, asperiores!</p>
+            <div class="link">
+                <a href="#">See more...</a>
+            </div>
+        </div>
+        <div class="divider">
+            <h2>contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam harum neque earum incidunt similique aliquid nobis quas excepturi, dignissimos commodi repellat laborum quod amet nihil nam non corporis ducimus nesciunt.</p>
+            <div class="link">
+                <a href="#">See more...</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- other sections -->
+
+    <div class="main-section">
+        <div class="second-heading">
+            <h2 id="hamburger">Humbergers</h2>
+        </div>
+        <div class="container-2">
+            <div class="divider">
+                <h3>Nice humbergers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam harum neque earum incidunt similique aliquid nobis quas excepturi, dignissimos commodi repellat laborum quod amet nihil nam non corporis ducimus nesciunt.</p>
+                <div class="link">
+                    <a href="#">See more...</a>
+                </div>
+            </div>
+            <div class="img-box divider-2">
+                <img src="/images/hamburger.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            &copy; 2025 All rights reserved. <a href="">Our partners</a>  /<a href="#">Develper</a> / <a href="#">Powerd by w3schools</a> / <a href="#">Our physical address</a>
+        </p>
+        <a href="#" style="color: rgba(0, 60, 255, 0.947);"><i class="fab fa-linkedin"></i></a>
+        <a href="#" style="color: rgba(0, 60, 255, 0.947);"><i class="fab fa-facebook"></i></a>
+        <a href="#" style="color: rgb(51, 211, 239);"><i class="fab fa-twitter"></i></a>
+        <a href="#" style="color: rgba(255, 0, 0, 0.947);"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <script>
+
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "/images/sun.png";
+            } else{
+                icon.src = "/images/moon.png";
+            }
+        }
+    </script>
+</body>
+</html>
